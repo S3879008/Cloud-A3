@@ -16,34 +16,34 @@
 }
 #Me img{
 	width: 10%;
-	height: 10%;
+	height: auto;
 }
 #dreamJob img{
 	width: 45%;
-	height: 45%;
+	height: auto;
 }
 #personalitys img {
-	width: 45%;
-	height: 45%;
+	width: 35%;
+	height: auto;
 }
 #eduplaner img {
-	width: 45%;
-	height: 45%;
+	width: 35%;
+	height: auto;
 }
 #VIACharacterstrengths img{
-	width: 45%;
-	height: 45%;
+	width: 35%;
+	height: auto;
 }
 #ItemDrops img{
-	width: 45%;
-	height: 45%;
+	width: 60%;
+	height: auto;
 }
 #Characters img{
-	width: 45%;
-	height: 45%;
+	width: 60%;
+	height: auto;
 }
 #Maps img{
-	width: 45%;
-	height: 45%;
+	width: 60%;
+	height: auto;
 }
 
