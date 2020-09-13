@@ -15,10 +15,6 @@ html, body {background: #8134AD; font-family:"Comic Sans MS", "Comic Sans", curs
 	font-size: 0.8em;
 	line-height: 1.3em;
 }
-.sectionTitle{
-	colour:#000000;
-	backround:#ffffff;
-}
 #Me img{
 	width: 10%;
 	height: auto:
@@ -39,7 +35,7 @@ html, body {background: #8134AD; font-family:"Comic Sans MS", "Comic Sans", curs
 	width: 30%;
 	height: auto:
 }
-#Map img{
+#Maps img{
 	width: 35%;
 	height: auto:
 }
