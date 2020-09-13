@@ -4,12 +4,13 @@
 	margin: 32px;
 	border: 32px solid#11BD92;
 	padding: 32px;
-	font-family: Comic Sans MS;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
 	font-size: 2em;
 	color: #DEBF12;
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
+html, body {background: #8134AD; font-family:"Comic Sans MS", "Comic Sans", cursive; font-size: 18px; color: #2113BA;}
 .p{
 	font-size: 0.8em;
 	line-height: 1.3em;
@@ -50,8 +51,4 @@
 	width: 35%;
 	height: auto:
 }
-.mainDetails {
-	padding: 25px 35px;
-	border-bottom: 3px solid #08409C;
-	background: #8134AD;
-}
+
