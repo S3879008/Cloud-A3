@@ -14,36 +14,7 @@
 	font-size: 0.8em;
 	line-height: 1.3em;
 }
-#Me img{
-	width: 10%;
-	height: auto;
-}
-#dreamJob img{
-	width: 45%;
-	height: auto;
-}
-#personalitys img {
-	width: 35%;
-	height: auto;
-}
-#eduplaner img {
-	width: 35%;
-	height: auto;
-}
-#VIACharacterstrengths img{
-	width: 35%;
-	height: auto;
-}
-#ItemDrops img{
-	width: 60%;
-	height: auto;
-}
-#Characters img{
-	width: 60%;
-	height: auto;
-}
-#Maps img{
-	width: 60%;
-	height: auto;
-}
+.sectionTitle{
+	colour:#ffffff;
+	backround:#000000;
 
