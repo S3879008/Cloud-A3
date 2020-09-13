@@ -1,4 +1,4 @@
-sectionContent,section,div,article,img,ul,li,p{
+.sectionContent{
 	width: 60%;
 	background: #DE8C12;
 	margin: 32px;
