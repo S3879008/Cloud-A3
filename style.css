@@ -7,8 +7,12 @@
 	font-family: Comic Sans MS;
 	font-size: 2em;
 	color: #DEBF12;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.4em;
+}
+.p{
+	font-size: 0.8em;
+	line-height: 1.3em;
 }
 
 
