@@ -42,13 +42,16 @@
 	width: 35%;
 	height: auto:
 }
-}
 #Characters img{
 	width: 35%;
 	height: auto:
 }
-}
 #ItemDrops img{
 	width: 35%;
 	height: auto:
+}
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 3px solid #08409C;
+	background: #8134AD;
 }
