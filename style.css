@@ -2,7 +2,7 @@
 	width: 60%;
 	background: #DE8C12;
 	margin: 32px;
-	border: 32px solid#11BD92;
+	border: 32px solid#8134AD;
 	padding: 32px;
 	font-family:"Comic Sans MS", "Comic Sans", cursive;
 	font-size: 2em;
@@ -10,7 +10,7 @@
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
-html, body {background: #8134AD; font-family:"Comic Sans MS", "Comic Sans", cursive; font-size: 18px; color: #2113BA;}
+html, body {background: #ffffff; font-family:"Comic Sans MS", "Comic Sans", cursive; font-size: 18px; color: #DEBD12;}
 .p{
 	font-size: 0.8em;
 	line-height: 1.3em;
