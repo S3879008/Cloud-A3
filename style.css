@@ -1,5 +1,4 @@
-sectionContent,article,img
-#sectionContent{
+sectionContent{
 	width: 60%;
 	background: #dbb;
 	margin: 32px;
@@ -9,20 +8,5 @@ sectionContent,article,img
 	font-size: 2em;
 	color: #480;
 }
-#article{
-	width: 60%;
-	background: #dbb;
-	margin: 32px;
-	border: 32px solid#11bd92;
-	padding: 32px;
-	font-family: Comic Sans MS;
-	font-size: 2em;
-	color: #480;
-}
-#headshot img {
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 55px;
-	border-radius: 55px;
-}
+
 
