@@ -10,9 +10,7 @@
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
-.sectionContent img{
-	border:3px solid#8134AD;
-}
+.clear {clear: both;}
 html, body {background: #0A0A0A; font-family:"Comic Sans MS", "Comic Sans", cursive; font-size: 18px; color: #DEBD12;}
 .p{
 	font-size: 0.8em;
@@ -49,6 +47,11 @@ html, body {background: #0A0A0A; font-family:"Comic Sans MS", "Comic Sans", curs
 #ItemDrops img{
 	width: 35%;
 	height: auto;
+}
+#cv {
+	width: 85%;
+	max-width: 775px;
+	margin: 25x auto;
 }
 
 
