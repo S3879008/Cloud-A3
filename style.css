@@ -4,7 +4,7 @@
 	margin: 32px;
 	border: 32px solid#8134AD;
 	padding: 32px;
-	font-family: "Arial", "Helvetica", sans-serif;
+	font-family: inherit;
 	font-size: 2em;
 	color: #DEBF12;
 	font-size: 1.2em;
