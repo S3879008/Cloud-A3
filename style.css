@@ -4,7 +4,7 @@
 	margin: 32px;
 	border: 32px solid#8134AD;
 	padding: 32px;
-	font-size: 2em;
+	font-size: 1.8em;
 	color: #DEBF12;
 	line-height: 1.4em;
 }
@@ -14,6 +14,7 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 .p{
 	font-size: 0.8em;
 	line-height: 1.3em;
+	float: right;
 }
 #Me img{
 	width: 12.5%;
