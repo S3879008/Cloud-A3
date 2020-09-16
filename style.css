@@ -19,6 +19,7 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 #Me img{
 	width: 12.5%;
 	height: auto;	
+	float: left;
 }
 #dreamJob img{
 	width: 30%;
@@ -39,14 +40,17 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 #Maps img{
 	width: 35%;
 	height: auto;
+	float: left;
 }
 #Characters img{
 	width: 35%;
 	height: auto;
+	float: left;
 }
 #ItemDrops img{
 	width: 35%;
 	height: auto;
+	float: left;
 }
 #cv {
 	width: 85%;
