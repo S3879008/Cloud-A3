@@ -40,7 +40,7 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 #Maps img{
 	width: 35%;
 	height: auto;
-	float: left;
+	float: right;
 }
 #Characters img{
 	width: 35%;
