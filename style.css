@@ -9,17 +9,17 @@
 	line-height: 1.4em;
 }
 
-html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif; font-size: 14px; color: #DEBD12;}
+html, body {background: #0A0A0A; font-size: 14px; color: #DEBD12;}
 
 .p{
 	font-size: 0.8em;
 	line-height: 1.3em;
-	float: right;
+	float: left;
 }
 #Me img{
 	width: 12.5%;
 	height: auto;	
-	float: left;
+	float: right;
 }
 #dreamJob img{
 	width: 30%;
@@ -45,12 +45,12 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 #Characters img{
 	width: 35%;
 	height: auto;
-	float: left;
+	float: right;
 }
 #ItemDrops img{
 	width: 35%;
 	height: auto;
-	float: left;
+	float: right;
 }
 #cv {
 	width: 85%;
