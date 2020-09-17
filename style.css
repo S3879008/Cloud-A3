@@ -42,10 +42,14 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 #Characters img{
 	width: 17%;
 	height: auto;
+	float: right;
+	overflow: auto;
 }
 #ItemDrops img{
 	width: 17%;
 	height: auto;
+	float: right;
+	overflow: auto;
 }
 #cv {
 	width: 85%;
