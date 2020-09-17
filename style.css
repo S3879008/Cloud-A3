@@ -38,8 +38,6 @@ html, body,ul {background: #0A0A0A; font-family: "Times New Roman", "Times", ser
 #Maps img{
 	width: 17%;
 	height: auto;
-	float: right;
-	overflow: auto;
 }
 #Characters img{
 	width: 17%;
