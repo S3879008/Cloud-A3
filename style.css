@@ -36,18 +36,18 @@ html, body {background: #0A0A0A; font-family: "Times New Roman", "Times", serif;
 	height: auto;
 }
 #Maps img{
-	width: 20%;
-	height: 20%;
+	width: 150px;
+	height: 212px;
 	float: right;
 }
 #Characters img{
-	width: 20%;
-	height: 20%;
+	width: 150px;
+	height: 212px;
 	float: right;
 }
 #ItemDrops img{
-	width: 20%;
-	height: 20%;
+	width: 150px;
+	height: 212px;
 	float: right;
 }
 #cv {
