@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CC2022 Assignment Three</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Register Page</h1>
+<form action="/check_register/" target="_self" method="post">
+<p>User Email:</p>
+<input type="text" placeholder="Enter email" name="email" id="email"> <br>
+<p>Username:</p>
+<input type="text" placeholder="Enter Username" name="username" id="username"> <br>
+<p>Password:</p>
+<input type="text" placeholder="Enter Password" name="password" id="password"><br><br>
+<input type="submit">
+  </form>
+  <br><a href="{{ url_for('load_index') }}">Login With Existing Account</a>
+</body>
+</html>

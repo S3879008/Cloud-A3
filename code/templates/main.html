@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CC2022 Assignment Three</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> </head> <body> <h1>User 
+Area</h1> <a href="{{ url_for('load_index') }}">Logout</a> <p> Welcome {{username}}</p> <h2>Destiny 2 Raids </h2> <a href="{{ 
+url_for('load_VOTD') }}">Vow of The Deciple</a><br> <img src="https://d2imagebucket.s3.amazonaws.com/VOTD_Icon.JPG" width="220" 
+height="220"><br> <a href="{{ url_for('load_VOG') }}">Vault of Glass</a><br> <img 
+src="https://d2imagebucket.s3.amazonaws.com/VOG_Icon.JPG" width="220" height="220"><br> <a href="{{ url_for('load_DSC') 
+}}">Deep Stone Crypt</a><br> <img src="https://d2imagebucket.s3.amazonaws.com/DSC_Icon.JPG" width="220" height="220"><br> <a 
+href="{{ url_for('load_GOS') }}">Garden of Salvation</a><br> <img src="https://d2imagebucket.s3.amazonaws.com/GOS_Icon.JPG" 
+width="220" height="220"><br> <a href="{{ url_for('load_LW') }}">Last Wish</a><br> <img 
+src="https://d2imagebucket.s3.amazonaws.com/LW_Icon.JPG" width="220" height="220"><br> <h2>LFG Raid Posts</h2> <p>Make A 
+Post</p> 
+<form action="/check_post/" target="_self" method="post"> 
+<p>ID(Join Code): </p> 
+<input type="text" placeholder="Enter Your Join Code" name="id" id="id"> <br> 
+<p>Raid: </p> 
+<input type="text" placeholder="Enter Raid Name" name="raid" id="raid"><br><br>
+<input type="hidden" id="username" name="username" value="{{username}}"> 
+<input type="submit">
+</form>
+<h3>Find A Post<h3>
+<form action="/get_post/" target="_self" method="post">
+<p>Raid: </p>
+<input type="text" placeholder="Enter Raid Name" name="raid" id="raid"><br><br>
+<input type="hidden" id="username" name="username" value="{{username}}">
+<input type="submit">
+</form>
+<h3>Results: </h3>
+<p> {{items}} </p>
+</body>
+</html>
